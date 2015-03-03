@@ -421,7 +421,7 @@
 			<item_001>
 				<data_input_field_id>hash_0700242cdfd55f5cbe4e37991170bb99ac8299</data_input_field_id>
 				<t_value>on</t_value>
-				<value>/fpm-status</value>
+				<value>/status</value>
 			</item_001>
 			<item_002>
 				<data_input_field_id>hash_070024d49770c338af147ea385721eed88645d</data_input_field_id>
