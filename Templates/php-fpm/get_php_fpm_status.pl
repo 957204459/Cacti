@@ -28,7 +28,7 @@ my $host = '';
 # tcp port
 my $port = 80;
 # script (absolute path starting at / - root directory -)
-my $script = '/fpm-status';
+my $script = '/status';
 # query string
 my $query_string = '';
 # timeout in seconds
@@ -36,7 +36,7 @@ my $timeout = 3;
 # connection mode: FCGI or HTTP
 # FCGI talks directly to PHP-FPM port
 # HTTP talks to PHP-FPM status url mapped by webserver
-my $mode = MODE_FCGI;
+my $mode = MODE_HTTP;
 
 # check command line options
 GetOptions(

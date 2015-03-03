@@ -4,7 +4,7 @@
 ###associated with them...
 
 #this is where we put it
-port=6092
+port=80
 uri=/nginx_status
 host=$1
 url="http://$host:$port$uri"
